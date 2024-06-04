@@ -1,0 +1,44 @@
+$heading_font: "Nympha Trial";
+$links_font: "SF Pro Display";
+$profession_font: "DM Mono";
+$name_font: "Nympha Trial";
+$name_color: rgb(214, 208, 206);
+
+%heading {
+  font-family: $heading_font;
+  font-weight: 400;
+}
+%links {
+  font-family: $links_font;
+  color: rgb(242, 242, 242);
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+%name {
+  font-family: $name_font;
+  color: $name_color;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 121.4%;
+}
+%profession {
+  font-family: $profession_font;
+  color: $name_color;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 121.4%;
+  text-transform: uppercase;
+}
+@mixin flex(
+  $display: flex,
+  $direction: row,
+  $just-cont: space-between,
+  $align-items: center
+) {
+  display: $display;
+  flex-direction: $direction;
+  justify-content: $just-cont;
+  align-items: $align-items;
+}

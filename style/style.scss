@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://v1.fontapi.ir/css/SFProDisplay:400;500");
+@import url("https://db.onlinewebfonts.com/c/5dd039d5b7942caa5edb325265ba72d1?family=Nympha+Trial");
+@import "variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(3, 3, 3);
+  .container {
+    padding: 0 85px 0 87px;
+    img {
+      display: block;
+    }
+    .top {
+      padding: 54px 15px 0 13px;
+      margin-bottom: 372px;
+      @include flex;
+      a {
+        @extend %links;
+      }
+      img {
+        width: 171px;
+      }
+    }
+    h2 {
+      @extend %heading;
+      margin: 0 auto;
+    }
+    .mainpic {
+      position: relative;
+      margin-bottom: 93px;
+      h2 {
+        color: rgb(255, 255, 255);
+        font-size: 220px;
+        position: absolute;
+        z-index: 1;
+        top: -137px;
+        left: 258px;
+      }
+    }
+    .name {
+      @include flex;
+      width: 584px;
+      margin: 0 auto;
+      margin-bottom: 274px;
+      > div {
+        @include flex(flex, column, space-between, center);
+        :first-child {
+          @extend %profession;
+          margin-bottom: 8px;
+        }
+        :last-child {
+          @extend %name;
+        }
+      }
+    }
+    .img-girl {
+      margin-bottom: 92px;
+    }
+    .head3 {
+      margin-bottom: 49px;
+      h2 {
+        color: rgb(141, 141, 141);
+        font-size: 220px;
+        text-align: center;
+      }
+      img {
+        position: relative;
+        left: 239px;
+        top: -151px;
+      }
+    }
+    .img-lips {
+      margin-bottom: 279px;
+    }
+    .img567 {
+      margin-right: 3px;
+      margin-bottom: 584px;
+      @include flex;
+      .img6 {
+        margin-bottom: 94px;
+      }
+      .img5 {
+        width: 646px;
+        margin-bottom: 306px;
+        padding-left: 71px;
+      }
+      .img7 {
+        width: 646px;
+      }
+    }
+    .head345 {
+      position: relative;
+      margin-bottom: 441px;
+      .img8 {
+        position: absolute;
+        left: 316px;
+        top: -49px;
+      }
+      .img8-1 {
+        position: absolute;
+        right: -85px;
+        top: -27px;
+      }
+      .heading3,
+      .heading4,
+      .heading5 {
+        text-align: center;
+        font-size: 260px;
+      }
+      .heading3 {
+        -webkit-text-stroke-width: 0.8px;
+        -webkit-text-stroke-color: rgb(141, 141, 141);
+      }
+      .heading4 {
+        -webkit-text-stroke-width: 0.8px;
+        -webkit-text-stroke-color: rgb(141, 141, 141);
+      }
+      .heading5 {
+        color: rgb(255, 255, 255);
+      }
+    }
+    .foot {
+      padding: 181px 0;
+      > div {
+        height: 596px;
+        position: relative;
+        h2 {
+          color: rgb(255, 255, 255);
+          font-size: 154px;
+          position: absolute;
+          top: 231px;
+          left: 230px;
+          z-index: 2;
+        }
+        .img9-1 {
+          width: 357px;
+          transform: rotate(6.92deg);
+          position: absolute;
+          top: 0;
+          left: 157px;
+        }
+        .img9-2 {
+          width: 410px;
+          transform: rotate(-4.05deg);
+          position: absolute;
+          z-index: 1;
+          top: 33px;
+          left: 499px;
+        }
+        .img9-3 {
+          width: 357px;
+          transform: rotate(-8.2deg);
+          position: absolute;
+          top: 110px;
+          right: 160px;
+        }
+      }
+    }
+  }
+}
