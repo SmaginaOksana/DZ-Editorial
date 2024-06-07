@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
 @import url("https://v1.fontapi.ir/css/SFProDisplay:400;500");
 @import url("https://db.onlinewebfonts.com/c/5dd039d5b7942caa5edb325265ba72d1?family=Nympha+Trial");
-.wrapper .container h2 {
+.wrap .wrapper .container h2 {
   font-family: "Nympha Trial";
   font-weight: 400;
 }
 
-.wrapper .container .top a {
+.wrap .wrapper .container .top a {
   font-family: "SF Pro Display";
   color: rgb(242, 242, 242);
   font-size: 18px;
@@ -15,7 +15,7 @@
   text-decoration: none;
 }
 
-.wrapper .container .name > div :last-child {
+.wrap .wrapper .container .name > div :last-child {
   font-family: "Nympha Trial";
   color: rgb(214, 208, 206);
   font-size: 24px;
@@ -23,7 +23,7 @@
   line-height: 121.4%;
 }
 
-.wrapper .container .name > div :first-child {
+.wrap .wrapper .container .name > div :first-child {
   font-family: "DM Mono";
   color: rgb(214, 208, 206);
   font-size: 16px;
@@ -38,18 +38,20 @@
   box-sizing: border-box;
 }
 
-.wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
+.wrap {
   background-color: rgb(3, 3, 3);
 }
-.wrapper .container {
+.wrap .wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.wrap .wrapper .container {
   padding: 0 85px 0 87px;
 }
-.wrapper .container img {
+.wrap .wrapper .container img {
   display: block;
 }
-.wrapper .container .top {
+.wrap .wrapper .container .top {
   padding: 54px 15px 0 13px;
   margin-bottom: 372px;
   display: flex;
@@ -57,17 +59,17 @@
   justify-content: space-between;
   align-items: center;
 }
-.wrapper .container .top img {
+.wrap .wrapper .container .top img {
   width: 171px;
 }
-.wrapper .container h2 {
+.wrap .wrapper .container h2 {
   margin: 0 auto;
 }
-.wrapper .container .mainpic {
+.wrap .wrapper .container .mainpic {
   position: relative;
   margin-bottom: 93px;
 }
-.wrapper .container .mainpic h2 {
+.wrap .wrapper .container .mainpic h2 {
   color: rgb(255, 255, 255);
   font-size: 220px;
   position: absolute;
@@ -75,7 +77,7 @@
   top: -137px;
   left: 258px;
 }
-.wrapper .container .name {
+.wrap .wrapper .container .name {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -84,35 +86,35 @@
   margin: 0 auto;
   margin-bottom: 274px;
 }
-.wrapper .container .name > div {
+.wrap .wrapper .container .name > div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.wrapper .container .name > div :first-child {
+.wrap .wrapper .container .name > div :first-child {
   margin-bottom: 8px;
 }
-.wrapper .container .img-girl {
+.wrap .wrapper .container .img-girl {
   margin-bottom: 92px;
 }
-.wrapper .container .head3 {
+.wrap .wrapper .container .head3 {
   margin-bottom: 49px;
 }
-.wrapper .container .head3 h2 {
+.wrap .wrapper .container .head3 h2 {
   color: rgb(141, 141, 141);
   font-size: 220px;
   text-align: center;
 }
-.wrapper .container .head3 img {
+.wrap .wrapper .container .head3 img {
   position: relative;
   left: 239px;
   top: -151px;
 }
-.wrapper .container .img-lips {
+.wrap .wrapper .container .img-lips {
   margin-bottom: 279px;
 }
-.wrapper .container .img567 {
+.wrap .wrapper .container .img567 {
   margin-right: 3px;
   margin-bottom: 584px;
   display: flex;
@@ -120,56 +122,56 @@
   justify-content: space-between;
   align-items: center;
 }
-.wrapper .container .img567 .img6 {
+.wrap .wrapper .container .img567 .img6 {
   margin-bottom: 94px;
 }
-.wrapper .container .img567 .img5 {
+.wrap .wrapper .container .img567 .img5 {
   width: 646px;
   margin-bottom: 306px;
   padding-left: 71px;
 }
-.wrapper .container .img567 .img7 {
+.wrap .wrapper .container .img567 .img7 {
   width: 646px;
 }
-.wrapper .container .head345 {
+.wrap .wrapper .container .head345 {
   position: relative;
   margin-bottom: 441px;
 }
-.wrapper .container .head345 .img8 {
+.wrap .wrapper .container .head345 .img8 {
   position: absolute;
   left: 316px;
   top: -49px;
 }
-.wrapper .container .head345 .img8-1 {
+.wrap .wrapper .container .head345 .img8-1 {
   position: absolute;
   right: -85px;
   top: -27px;
 }
-.wrapper .container .head345 .heading3,
-.wrapper .container .head345 .heading4,
-.wrapper .container .head345 .heading5 {
+.wrap .wrapper .container .head345 .heading3,
+.wrap .wrapper .container .head345 .heading4,
+.wrap .wrapper .container .head345 .heading5 {
   text-align: center;
   font-size: 260px;
 }
-.wrapper .container .head345 .heading3 {
+.wrap .wrapper .container .head345 .heading3 {
   -webkit-text-stroke-width: 0.8px;
   -webkit-text-stroke-color: rgb(141, 141, 141);
 }
-.wrapper .container .head345 .heading4 {
+.wrap .wrapper .container .head345 .heading4 {
   -webkit-text-stroke-width: 0.8px;
   -webkit-text-stroke-color: rgb(141, 141, 141);
 }
-.wrapper .container .head345 .heading5 {
+.wrap .wrapper .container .head345 .heading5 {
   color: rgb(255, 255, 255);
 }
-.wrapper .container .foot {
+.wrap .wrapper .container .foot {
   padding: 181px 0;
 }
-.wrapper .container .foot > div {
+.wrap .wrapper .container .foot > div {
   height: 596px;
   position: relative;
 }
-.wrapper .container .foot > div h2 {
+.wrap .wrapper .container .foot > div h2 {
   color: rgb(255, 255, 255);
   font-size: 154px;
   position: absolute;
@@ -177,14 +179,14 @@
   left: 230px;
   z-index: 2;
 }
-.wrapper .container .foot > div .img9-1 {
+.wrap .wrapper .container .foot > div .img9-1 {
   width: 357px;
   transform: rotate(6.92deg);
   position: absolute;
   top: 0;
   left: 157px;
 }
-.wrapper .container .foot > div .img9-2 {
+.wrap .wrapper .container .foot > div .img9-2 {
   width: 410px;
   transform: rotate(-4.05deg);
   position: absolute;
@@ -192,7 +194,7 @@
   top: 33px;
   left: 499px;
 }
-.wrapper .container .foot > div .img9-3 {
+.wrap .wrapper .container .foot > div .img9-3 {
   width: 357px;
   transform: rotate(-8.2deg);
   position: absolute;
